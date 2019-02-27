@@ -1,0 +1,43 @@
+    @font-face {
+        font-family: 'AlexBrush';
+        src: url('AlexBrush-Regular.ttf'); /* IE9 Compat Modes */
+        src: url('AlexBrush-Regular.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('AlexBrush-Regular.ttf') format('woff2'), /* Super Modern Browsers */
+            url('AlexBrush-Regular.ttf') format('woff'), /* Pretty Modern Browsers */
+            url('AlexBrush-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+            url('AlexBrush-Regular.ttf#svgFontName') format('svg'); /* Legacy iOS */
+    }
+  
+  .fruit_box{
+    float: left;
+    margin: 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    
+    img{
+      width:70%;
+      display:block;
+      clear:both;
+    }
+
+    div.small{
+        font-size: 0.7em;
+    }
+    
+    div.title{
+      font-family: 'AlexBrush', Fallback, sans-serif;
+      font-size: 1.2em;
+    }
+
+    div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+
+  }
+  
+ 

@@ -1,6 +1,10 @@
 
 <div *ngIf="fruits">
-  <div *ngFor="let fruit of fruits.data">
-    {{fruit.name}}
+  <div *ngFor="let fruit of fruits.data" class="fruit_box">
+    <div class="title">{{fruit.name}}</div>
+    <div class="small">{{fruit.source}}</div>
+    <div>
+      <img src="{{fruit.url}}">
+    </div>
   </div>
 </div>
